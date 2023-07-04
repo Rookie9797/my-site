@@ -10,7 +10,7 @@ if (!window.VueRouter) {
 const router = new VueRouter({
   // 配置
   routes, // 路由匹配规则
-  mode: "history",
+  // mode: "history",
 });
 
 router.afterEach((to, from) => {

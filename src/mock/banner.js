@@ -1,4 +1,6 @@
 import Mock from "mockjs";
+import bannerBg from "@/assets/bannerBg.jpeg";
+import bannerBg1 from "@/assets/bannerBg1.jpeg";
 
 Mock.mock("/api/banner", "get", {
   code: 0,
@@ -6,8 +8,10 @@ Mock.mock("/api/banner", "get", {
   data: [
     {
       id: "2",
-      midImg: "http://mdrs.yuanjin.tech/img/20201031205550.jpg",
-      bigImg: "http://mdrs.yuanjin.tech/img/20201031205551.jpg",
+      // midImg: "http://mdrs.yuanjin.tech/img/20201031205550.jpg",
+      // bigImg: "http://mdrs.yuanjin.tech/img/20201031205551.jpg",
+      midImg: bannerBg,
+      bigImg: bannerBg,
       title: "血火同源",
       description: "如果我回头，一切都完了",
     },
@@ -22,8 +26,10 @@ Mock.mock("/api/banner", "get", {
     },
     {
       id: "3",
-      midImg: "http://mdrs.yuanjin.tech/img/20201031204401.jpg",
-      bigImg: "http://mdrs.yuanjin.tech/img/20201031204403.jpg",
+      // midImg: "http://mdrs.yuanjin.tech/img/20201031204401.jpg",
+      // bigImg: "http://mdrs.yuanjin.tech/img/20201031204403.jpg",
+      midImg: bannerBg1,
+      bigImg: bannerBg1,
       title: "听我怒吼",
       description: "兰尼斯特有债必偿",
     },
